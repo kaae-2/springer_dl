@@ -3,7 +3,8 @@ import time
 import os
 
 if __name__ == "__main__":
-    download_dir = "C:\\Users\\kaae-\\Desktop\\code\\springer_download\\downloads"
+
+    download_dir = "YOUR\\DIR\\HERE"
     with open("cleaned_data.txt", "r") as data:
         options = webdriver.ChromeOptions()
         options.add_experimental_option('prefs', {
